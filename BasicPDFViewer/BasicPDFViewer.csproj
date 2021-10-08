@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <PublishSingleFile>false</PublishSingleFile>
+    <AssemblyName>PDFReader</AssemblyName>
+    <PackageId>JCVPDF</PackageId>
+    <Version>1.0</Version>
+    <Authors>jnvcia</Authors>
+    <Product>JCVPDF Reader</Product>
+    <PackageIcon>icon_og.png</PackageIcon>
+    <PackageReleaseNotes>First beta</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>JNVCIA Publishing.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+    <ApplicationIcon>Resources\icon_og.ico</ApplicationIcon>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Users\capsk\source\repos\BasicPDFViewer\Output\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <OutputPath>C:\Users\capsk\source\repos\BasicPDFViewer\Output\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\capsk\.nuget\packages\pdfiumviewer.native.x86.v8-xfa\2018.4.8.256\Build\x86\pdfium.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfiumViewer" Version="2.13.0" />
+    <PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\capsk\.nuget\packages\pdfium.net.sdk\4.61.2704\build\..\content\x86\pdfium.dll" />
+    <None Include="Resources\icon_og.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicPDFViewer", "BasicPDFViewer\BasicPDFViewer.csproj", "{94BC8DF5-C993-4D9B-9188-7B7DBD475960}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupThing", "SetupThing\SetupThing.vdproj", "{AC8AF6CB-3F68-4283-A2EA-DC1D7C2F8798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Debug|x86.ActiveCfg = Debug|x86
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Debug|x86.Build.0 = Debug|x86
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Release|x86.ActiveCfg = Release|x86
+		{94BC8DF5-C993-4D9B-9188-7B7DBD475960}.Release|x86.Build.0 = Release|x86
+		{AC8AF6CB-3F68-4283-A2EA-DC1D7C2F8798}.Debug|Any CPU.ActiveCfg = Debug
+		{AC8AF6CB-3F68-4283-A2EA-DC1D7C2F8798}.Debug|x86.ActiveCfg = Debug
+		{AC8AF6CB-3F68-4283-A2EA-DC1D7C2F8798}.Debug|x86.Build.0 = Debug
+		{AC8AF6CB-3F68-4283-A2EA-DC1D7C2F8798}.Release|Any CPU.ActiveCfg = Release
+		{AC8AF6CB-3F68-4283-A2EA-DC1D7C2F8798}.Release|x86.ActiveCfg = Release
+		{AC8AF6CB-3F68-4283-A2EA-DC1D7C2F8798}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1332D4E-1569-470B-8B20-6DA8486A2172}
+	EndGlobalSection
+EndGlobal
