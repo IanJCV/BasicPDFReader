@@ -165,8 +165,17 @@ namespace BasicPDFViewer
             var item2 = contextMenu.Items.Add("Reset root directory");
             item2.Click += contextMenu_ResetRoot;
 
+            contextMenu.Items.Add("-");
+            var item3 = contextMenu.Items.Add("Close");
+            item3.Click += contextMenu_Quit;
+
             e.Cancel = false;
 
+        }
+
+        private void contextMenu_Quit(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void contextMenu_ResetRoot(object sender, EventArgs e)
@@ -345,8 +354,6 @@ namespace BasicPDFViewer
                 button1.BackgroundImage = Properties.Resources.Arrow_Right_Filled_Circle_b3965f;
             else
                 button1.BackgroundImage = Properties.Resources.Arrow_Left_Filled_Circle_b3965f;
-
-            
         }
 
         protected override void OnMouseDown(MouseEventArgs e)
