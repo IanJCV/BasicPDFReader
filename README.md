@@ -30,6 +30,7 @@ I was tired of other PDF readers being clunky and way too big for just displayin
 
 
 ## TODO
+- [ ] CLEAN THE CODE!
 - [ ] Figure out an installer and discarding/packing all the unnecessary DLLs. *If you know how to do this, please put it in suggestions!*
 - [ ] Tabs
 - [ ] Better memory management
