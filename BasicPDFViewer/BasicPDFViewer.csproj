@@ -15,7 +15,7 @@
     <PackageReleaseNotes>First beta</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>JNVCIA Publishing.pfx</AssemblyOriginatorKeyFile>
-    <DelaySign>true</DelaySign>
+    <DelaySign>false</DelaySign>
     <ApplicationIcon>Resources\icon_og.ico</ApplicationIcon>
     <Platforms>AnyCPU;x86</Platforms>
   </PropertyGroup>
