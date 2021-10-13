@@ -2,6 +2,12 @@
 
 I was tired of other PDF readers being clunky and way too big for just displaying a book. 
 
+Installation:
+- Download the latest zip from [Releases](https://github.com/AutismSpirit/BasicPDFReader/releases)
+- Unpack into a folder
+- Launch PDFReader.exe
+
+
 **Right click and drag on the directories to move.**
 
 **Middle click and drag on the directories to resize.**
