@@ -45,4 +45,4 @@ Installation:
 
 
 ## MAYBE
-- Rewrite the thing in C++
+- Rewrite the thing in ~~C++~~ WPF
