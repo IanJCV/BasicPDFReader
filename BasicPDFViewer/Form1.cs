@@ -78,7 +78,7 @@ namespace BasicPDFViewer
 
         #region DRAG_AND_DROP
         private bool dragDrop;
-        
+
         protected override void OnDragDrop(DragEventArgs drgevent)
         {
             base.OnDragDrop(drgevent);
